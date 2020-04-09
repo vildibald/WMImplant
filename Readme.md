@@ -54,7 +54,8 @@ Developed by [@christruncer](https://twitter.com/christruncer)
 
 # Usage
 
-The easiest way to get up and running with WMImplant is to import the script and run Invoke-WMImplant. This will present you with the main menu and you can instantly start choosing a command to run. Within the main menu, you can also choose to have WMImplant output the command line command you would need to use in order to run WMImplant in a non-interactive manner.
+The easiest way to get up and running with WMImplant is to run the script directly which will automatically invoke the Invoke-WMImplant function with passed parameters (if any). Running the script without parameters will present you with the main menu and you can instantly start choosing a command to run. Within the main menu, you can also choose to have WMImplant output the command line command you would need to use in order to run WMImplant in a non-interactive manner (make sure to replace the generated Invoke-WMImplant function with the name of the script).
+
 
 Thanks to:
     [@evan_Pena2003](https://twitter.com/evan_pena2003) - For your help with code reviews and adding functionality into the tool
