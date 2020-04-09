@@ -3732,3 +3732,6 @@ function Set-OriginalProperty
     }
     end{}
 }
+
+$allArgs = $PsBoundParameters.Values + $args
+Invoke-WMImplant @allArgs
